@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X/O vs Jev</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>X/O vs Jev</h1>
+        <p class="subtitle">You are <strong>X</strong>. Jev plays <strong>O</strong> via TypeSafe Choice.</p>
+      </header>
+
+      <section class="status" id="status" aria-live="polite">Your turn — pick a square.</section>
+
+      <div class="board" id="board" role="grid" aria-label="Tic-tac-toe board"></div>
+
+      <div class="meta" id="meta"></div>
+
+      <button type="button" class="btn" id="new-game">New game</button>
+    </main>
+
+    <script type="module" src="./client.ts"></script>
+  </body>
+</html>
