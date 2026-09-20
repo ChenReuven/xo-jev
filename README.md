@@ -4,7 +4,7 @@ Tic-tac-toe in the browser. You play **X**. **Jev** plays **O** via [TypeSafe](h
 
 ## Demo
 
-<video src="assets/demo.mp4" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/605d990d-f140-466b-98e8-d67726720ef1" controls width="100%"></video>
 
 ## Setup
 
