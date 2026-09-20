@@ -2,6 +2,10 @@
 
 Tic-tac-toe in the browser. You play **X**. **Jev** plays **O** via [TypeSafe](https://typesafe.ai) Choice (`systemOne`). If the model call fails, the server falls back to a random empty cell.
 
+## Demo
+
+<video src="assets/demo.mp4" controls width="100%"></video>
+
 ## Setup
 
 Needs [Bun](https://bun.sh) and a TypeSafe API key from [console.typesafe.ai](https://console.typesafe.ai).
